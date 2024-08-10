@@ -1,0 +1,7 @@
+REPOSITORY LINK : https://github.com/Mak-3/Dijkstras-algorithm-HYDmetro.git
+(Dijkstras-algorithm-HYDmetro by Mak-3)
+ Documentation :
+This C++ program implements Dijkstra's Algorithm to find the shortest path in a graph. The graph is represented using a 56x56 adjacency matrix where the value at graph[i][j] represents the distance (or weight) between nodes i and j. The goal of the program is to calculate the minimum distance from a specified source node to all other nodes in the graph.
+Matrix Size: The graph matrix is sized 56x56, but only part of it is filled with non-zero values. This is fine as long as the rest of the matrix is implicitly zero.
+mindistance() function finds the index of the minimum distance vertex from the set of vertices not yet processed. dijkstra() uses this function to update the shortest path estimates for all vertices from the source.
+Printing Distances: After computing the shortest paths, you print the distance from the source to every other station. This is useful for verifying correctness.
